@@ -1,10 +1,15 @@
 #pragma once
 #include <ostream>
 
+//is-a
+
 namespace ssuds
 {
-	class queue
+	template <class T>
+	class queue : private LinkedList<T>
 	{
-		
+	public:
+		using LinkedList<T>::begin();
+		using LinkedList<T>::end();
 	};
 }
