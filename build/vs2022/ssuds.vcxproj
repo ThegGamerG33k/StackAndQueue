@@ -14,13 +14,15 @@
     <ClCompile Include="..\..\src\array_list_tests.cpp" />
     <ClCompile Include="..\..\src\linked_list_tests.cpp" />
     <ClCompile Include="..\..\src\main.cpp" />
-    <ClCompile Include="queue.cpp" />
-    <ClCompile Include="stack.cpp" />
+    <ClCompile Include="..\..\src\text_cirlce.cpp" />
+    <ClCompile Include="..\..\src\word_drawer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\include\array_list.h" />
     <ClInclude Include="..\..\include\array_list_utility.h" />
     <ClInclude Include="..\..\include\linked_list.h" />
+    <ClInclude Include="..\..\include\text_circle.h" />
+    <ClInclude Include="..\..\include\word_drawer.h" />
     <ClInclude Include="queue.h" />
     <ClInclude Include="stack.h" />
   </ItemGroup>

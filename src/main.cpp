@@ -3,6 +3,7 @@
 
 #define DO_UNIT_TESTING 1
 #include <iostream>
+#include <fstream>
 #if DO_UNIT_TESTING
 #include <gtest/gtest.h>
 #endif
