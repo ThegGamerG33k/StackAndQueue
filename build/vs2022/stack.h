@@ -33,7 +33,10 @@ namespace ssuds
 		//void function that removes the first item in the list
 		void pop()
 		{
+			typename LinkedList<T>::LInkedListIterator it = mList.begin();
+			T temp = *it;
 			mList.remove(mList.begin());
+			return temp;
 		}
 
 		//return the size of the current list being looked at

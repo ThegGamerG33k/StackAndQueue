@@ -19,10 +19,13 @@ namespace ssuds
 			this->append(new_val);
 		}
 
-		//remove the last item in the current list
+		//remove the last item in the current list and return its value
 		void dequeue()
 		{
+			typename LinkedList<T>::LinkedListIterator it = this->begin();
+			T temp = *it;
 			this->remove(this->rbegin());
+			return temp;
 		}
 
 		//return the size of the current list being looked at

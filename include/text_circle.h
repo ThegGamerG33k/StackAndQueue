@@ -9,7 +9,10 @@ class TextCircle : private sf::Drawable
 
 	virtual void draw(sf::RenderTarget &target, sf::RenderStates states) const override;
 
+	bool inside(sf::Vector2f target) const;
+
 	sf::CircleShape shape;
 	sf::Text txt;
+	float randomcol = rand() % (255 - 0 + 1) + 0;
 
 };
