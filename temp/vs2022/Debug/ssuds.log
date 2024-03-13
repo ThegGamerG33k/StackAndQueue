@@ -1,5 +1,17 @@
-﻿  array_list_tests.cpp
-  linked_list_tests.cpp
-  main.cpp
+﻿  main.cpp
+  text_cirlce.cpp
+C:\Users\nweller\etec2101\repo_lab6\src\text_cirlce.cpp(13,21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\nweller\etec2101\repo_lab6\src\text_cirlce.cpp(13,18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\nweller\etec2101\repo_lab6\src\text_cirlce.cpp(23,40): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\nweller\etec2101\repo_lab6\src\text_cirlce.cpp(23,27): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\nweller\etec2101\repo_lab6\src\text_cirlce.cpp(41,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
   Generating Code...
-  ssuds.vcxproj -> C:\Users\nweller\etec2101\lab05_soln\lab05_soln\bin\vs2022\Debug\ssuds_d.exe
+  ssuds.vcxproj -> C:\Users\nweller\etec2101\repo_lab6\bin\vs2022\Debug\ssuds_d.exe

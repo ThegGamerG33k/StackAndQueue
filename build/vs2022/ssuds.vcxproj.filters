@@ -41,16 +41,16 @@
     <ClInclude Include="..\..\include\linked_list.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="stack.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="queue.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\include\text_circle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\include\word_drawer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\stack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\queue.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
